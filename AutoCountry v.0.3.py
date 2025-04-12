@@ -1,4 +1,4 @@
-AllowedVechiclesList = ('Ford F-150', 'Chevrolet Silverado', 'Tesla CyberTruck', 'Toyota Tundra', 'Nissan Titan')
+AllowedVechiclesList = ['Ford F-150', 'Chevrolet Silverado', 'Tesla CyberTruck', 'Toyota Tundra', 'Nissan Titan']
 
 
 def display_menu():
@@ -41,7 +41,7 @@ def main():
         elif pick == '2':
             smart_find()
         elif pick == '3':
-            add_authorized_vehicle
+            add_authorized_vehicle()
         elif pick == '4':
             print('Thank you for using the AutoCountry Vehicle Finder, good-bye!')
             input('Press any key to exit.')
